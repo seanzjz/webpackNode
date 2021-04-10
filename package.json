@@ -1,0 +1,47 @@
+{
+  "name": "webpackNode",
+  "version": "1.0.0",
+  "description": "搭建webpack练手",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --progress --config ./webpack.config.js",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanzjz/webpackNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanzjz/webpackNode/issues"
+  },
+  "homepage": "https://github.com/seanzjz/webpackNode#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@vue/compiler-sfc": "^3.0.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.13.12",
+    "axios": "^0.21.1",
+    "css-loader": "^5.1.4",
+    "element-plus": "^1.0.2-beta.36",
+    "less": "^4.1.1",
+    "less-loader": "^8.0.0",
+    "save": "^2.4.0",
+    "scss-loader": "0.0.1",
+    "style-loader": "^2.0.0",
+    "vue": "^3.0.7",
+    "vue-loader": "^16.1.2",
+    "vue-router": "^4.0.5",
+    "vuex": "^4.0.0"
+  }
+}
